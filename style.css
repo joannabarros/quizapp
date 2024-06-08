@@ -119,19 +119,19 @@ main {
     width: 100%;
 }
 
-.batao_html div {
+.botao_html div {
     background: var(--bg-html);
 }
 
-.batao_css div {
+.botao_css div {
     background: var(--bg-css);
 }
 
-.batao_javascript div {
+.botao_javascript div {
     background: var(--bg-javascript);
 }
 
-.batao_acessibilidade div {
+.botao_acessibilidade div {
     background: var(--bg-acessibilidade);
 }
 
@@ -146,8 +146,22 @@ main {
     margin-block: 81px;
    }
 
+   .tema {
+    gap: 16px;
+   }
+
    .tema img {
-    
+    width: 24px;
+   }
+
+   .tema button {
+    width: 48px;
+    height: 28px;
+   }
+
+   .tema button div {
+    width: 20px;
+    height: 20px;
    }
 
    main {
