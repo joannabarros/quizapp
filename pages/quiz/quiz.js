@@ -133,7 +133,7 @@ function validarResposta () {
     pergunta = pergunta + 1
 }
 
-function finalizar(){
+function finalizar() {
     localStorage.setItem("pontos", pontos)
 
     window.location.href = "../../resultado.html"
